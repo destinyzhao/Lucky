@@ -38,6 +38,7 @@
 		DEE3928E219BC060009A3AE7 /* LuckyCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DEE3928C219BC060009A3AE7 /* LuckyCell.xib */; };
 		DEE39294219BF454009A3AE7 /* SortHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = DEE39293219BF454009A3AE7 /* SortHelper.m */; };
 		DEE39298219BF4DC009A3AE7 /* RandomHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = DEE39297219BF4DC009A3AE7 /* RandomHelper.m */; };
+		DEE3929E219C0399009A3AE7 /* BaseWebView.m in Sources */ = {isa = PBXBuildFile; fileRef = DEE3929D219C0399009A3AE7 /* BaseWebView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -92,6 +93,8 @@
 		DEE39293219BF454009A3AE7 /* SortHelper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SortHelper.m; sourceTree = "<group>"; };
 		DEE39296219BF4DC009A3AE7 /* RandomHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RandomHelper.h; sourceTree = "<group>"; };
 		DEE39297219BF4DC009A3AE7 /* RandomHelper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RandomHelper.m; sourceTree = "<group>"; };
+		DEE3929C219C0399009A3AE7 /* BaseWebView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseWebView.h; sourceTree = "<group>"; };
+		DEE3929D219C0399009A3AE7 /* BaseWebView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseWebView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -246,6 +249,7 @@
 		DEE3924A219BB305009A3AE7 /* Base */ = {
 			isa = PBXGroup;
 			children = (
+				DEE3929B219C0371009A3AE7 /* BaseWebView */,
 				DEE39262219BB57B009A3AE7 /* MainController */,
 				DEE39258219BB3AC009A3AE7 /* TabBar */,
 				DEE3924C219BB37A009A3AE7 /* BaseNavigationController */,
@@ -395,6 +399,15 @@
 			path = RandomHelper;
 			sourceTree = "<group>";
 		};
+		DEE3929B219C0371009A3AE7 /* BaseWebView */ = {
+			isa = PBXGroup;
+			children = (
+				DEE3929C219C0399009A3AE7 /* BaseWebView.h */,
+				DEE3929D219C0399009A3AE7 /* BaseWebView.m */,
+			);
+			path = BaseWebView;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -532,6 +545,7 @@
 				DE6A3259219BAEDA0090A89E /* main.m in Sources */,
 				DE6A324B219BAED70090A89E /* AppDelegate.m in Sources */,
 				DEE39281219BBFD7009A3AE7 /* MBProgressHUD+Expand.m in Sources */,
+				DEE3929E219C0399009A3AE7 /* BaseWebView.m in Sources */,
 				DEE39260219BB427009A3AE7 /* UIColor+RGBColor.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

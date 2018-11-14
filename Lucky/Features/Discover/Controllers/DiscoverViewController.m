@@ -7,11 +7,12 @@
 //
 
 #import "DiscoverViewController.h"
-#import <WebKit/WebKit.h>
+#import "BaseWebView.h"
+
 
 @interface DiscoverViewController ()<WKNavigationDelegate,WKUIDelegate>
 
-@property (strong, nonatomic)  WKWebView *webView;
+@property (strong, nonatomic)  BaseWebView *webView;
 
 @end
 
@@ -22,7 +23,7 @@
     // Do any additional setup after loading the view from its nib.
     
     // 初始化 WKWebView 对象
-    _webView = [[WKWebView alloc] initWithFrame:self.view.bounds];
+    _webView = [[BaseWebView alloc] initWithFrame:self.view.bounds];
     _webView.UIDelegate = self;
     _webView.navigationDelegate = self;
     [self.view addSubview:_webView];
